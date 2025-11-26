@@ -231,9 +231,10 @@
         </div>
         <!--/ Row end -->
 
-        <div class="nav-search">
+        <!-- <div class="nav-search">
           <span id="search"><i class="fa fa-search"></i></span>
-        </div><!-- Search end -->
+        </div> -->
+        <!-- Search end -->
 
         <div class="search-block" style="display: none;">
           <label for="search-field" class="w-100 mb-0">
@@ -249,8 +250,35 @@
 </header>
 <!--/ Header end -->
 
+
+<style>
+.banner-carousel-item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* adjust transparency */
+  z-index: 1;
+}
+
+.banner-carousel-item .slider-content {
+  position: relative;
+  z-index: 2;
+}
+
+</style>
+
+
 <div class="banner-carousel banner-carousel-1 mb-0">
-  <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg1.jpg)">
+  <div class="banner-carousel-item" style="background-image:url(img/img-1.jpeg)">
     <div class="slider-content">
         <div class="container h-100">
           <div class="row align-items-center h-100">
@@ -269,7 +297,7 @@
     </div>
   </div>
 
-  <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg2.jpg)">
+  <div class="banner-carousel-item" style="background-image:url(img/img-3.jpeg)">
     <div class="slider-content text-left">
         <div class="container h-100">
           <div class="row align-items-center h-100">
@@ -286,7 +314,7 @@
     </div>
   </div>
 
-  <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg3.jpg)">
+  <div class="banner-carousel-item" style="background-image:url(img/img-2.jpeg)">
     <div class="slider-content text-right">
         <div class="container h-100">
           <div class="row align-items-center h-100">
@@ -305,7 +333,7 @@
   </div>
 </div>
 
-<section class="call-to-action-box no-padding">
+<!-- <section class="call-to-action-box no-padding">
   <div class="container">
     <div class="action-style-box">
         <div class="row align-items-center">
@@ -316,19 +344,186 @@
                   Building Futures with Precision and Care
                 </h3>
                 <p style="color: rgb(255, 255, 255);">
-                  <!-- Shourya Construction and Pranali Enterprises  -->
+               
                   We delivers reliable, innovative, and high-quality infrastructure solutions that stand the test of time.
                 </p>
               </div>
-          </div><!-- Col end -->
+          </div>
+        
 
-        </div><!-- row end -->
-    </div><!-- Action style box -->
-  </div><!-- Container end -->
-</section>
+        </div>
+    </div>
+  </div>
+</section> -->
 <!-- Action end -->
 
+
 <section id="ts-features" class="ts-features">
+  <div class="container">
+    <div class="row">
+
+      <!-- LEFT SIDE CONTENT -->
+      <div class="col-lg-6">
+        <div class="ts-intro">
+          <h2 class="into-title">About Us</h2>
+          <h3 class="into-sub-title">Building With Integrity</h3>
+          <p>
+            Shourya Construction and Pranali Enterprises, founded in 2018 by 
+            Mr. Rahul Jagannath Mane, is a trusted and growing name in the 
+            construction and infrastructure sector. Based in Belapur, our team 
+            of 50+ skilled professionals delivers quality, reliability, and 
+            timely execution. With the belief that “Our Passion, Your Ambition,” 
+            we focus on innovative solutions, strong project management, and 
+            building lasting relationships.
+          </p>
+        </div>
+
+        <div class="gap-20"></div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ts-service-box">
+              <span class="ts-service-icon"><i class="fas fa-trophy"></i></span>
+              <div class="ts-service-box-content">
+                <h3 class="service-box-title">We've Reputation for Excellence</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="ts-service-box">
+              <span class="ts-service-icon"><i class="fas fa-sliders-h"></i></span>
+              <div class="ts-service-box-content">
+                <h3 class="service-box-title">We Build Partnerships</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ts-service-box">
+              <span class="ts-service-icon"><i class="fas fa-thumbs-up"></i></span>
+              <div class="ts-service-box-content">
+                <h3 class="service-box-title">Guided by Commitment</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="ts-service-box">
+              <span class="ts-service-icon"><i class="fas fa-users"></i></span>
+              <div class="ts-service-box-content">
+                <h3 class="service-box-title">A Team of Professionals</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE IMAGE -->
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <img src="img/img-6.jpeg" alt="About Us Image" class="img-fluid rounded shadow">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="ts-features" class="ts-features">
+  <div class="container">
+    <div class="row">
+
+      <!-- LEFT SIDE IMAGE START -->
+      <div class="col-lg-6">
+        <div class="about-image">
+          <img src="https://thaheemgroup.co/wp-content/uploads/2021/12/mission-vision.jpg" alt="About Shourya Construction" class="img-fluid" style="border-radius: 8px;">
+        </div>
+      </div>
+      <!-- LEFT SIDE IMAGE END -->
+
+      <!-- RIGHT SIDE CONTENT START -->
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <h3 class="into-sub-title">Our Core Principles</h3>
+        <p>These principles guide our work.</p>
+
+        <div class="accordion accordion-group" id="our-values-accordion">
+          <div class="card">
+            <div class="card-header p-0 bg-transparent" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Our Mission
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#our-values-accordion">
+              <div class="card-body">
+                 Our mission is to deliver high-quality, reliable, and innovative 
+construction solutions that exceed client expectations. We are 
+committed to building lasting relationships through honesty, 
+integrity, and a dedication to excellence in every project we 
+undertake. By leveraging skilled craftsmanship, modern 
+technologies, and sustainable practices, we aim to contribute 
+positively to communities and shape a better-built environment.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header p-0 bg-transparent" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Our Vision
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#our-values-accordion">
+              <div class="card-body">
+                To become a trusted leader in the construction industry, known for 
+delivering exceptional quality, fostering innovation, and building a 
+legacy of excellence. We envision shaping skylines and 
+communities with integrity, sustainability, and a commitment to 
+creating spaces that inspire future generations, expanding to 
+new regions or markets, becoming a top choice for green or smart 
+construction, empowering local talent or communities.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header p-0 bg-transparent" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Core Values
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#our-values-accordion">
+              <div class="card-body">
+                <ul>
+                  <li><strong>Integrity</strong> - We act with honesty, fairness, and accountability in all our interactions—building trust with clients, partners, and our team.</li>
+                        <li><strong>Quality</strong> - We are committed to excellence in every detail, delivering durable, safe, and high-standard construction that stands the test of time</li>
+                        <li><strong>Safety</strong> - We prioritize the health and safety of our workers, clients, and communities in every project.</li>
+                        <li><strong>Customer Focus</strong> - We listen, understand, and exceed client expectations by delivering personalized and dependable service.</li>
+                        <li><strong>Innovation</strong> - We embrace new technologies, modern techniques, and creative thinking to build smarter and more efficiently.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- RIGHT SIDE CONTENT END -->
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- <section id="ts-features" class="ts-features">
   <div class="container">
     <div class="row">
         <div class="col-lg-6">
@@ -342,7 +537,7 @@
                 excellence. With the belief that “Our Passion, Your Ambition,” we focus on innovative solutions, strong 
                 project management, and a customer-centric approach to turn your ambitions into reality and build lasting 
                 relationships.</p>
-          </div><!-- Intro box end -->
+          </div>
 
           <div class="gap-20"></div>
 
@@ -355,8 +550,8 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">We've Repution for Excellence</h3>
                     </div>
-                </div><!-- Service 1 end -->
-              </div><!-- col end -->
+                </div>
+              </div>
 
               <div class="col-md-6">
                 <div class="ts-service-box">
@@ -366,9 +561,9 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">We Build Partnerships</h3>
                     </div>
-                </div><!-- Service 2 end -->
-              </div><!-- col end -->
-          </div><!-- Content row 1 end -->
+                </div>
+              </div>
+          </div>
 
           <div class="row">
               <div class="col-md-6">
@@ -379,8 +574,8 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">Guided by Commitment</h3>
                     </div>
-                </div><!-- Service 1 end -->
-              </div><!-- col end -->
+                </div>
+              </div>
 
               <div class="col-md-6">
                 <div class="ts-service-box">
@@ -390,10 +585,10 @@
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">A Team of Professionals</h3>
                     </div>
-                </div><!-- Service 2 end -->
-              </div><!-- col end -->
-          </div><!-- Content row 1 end -->
-        </div><!-- Col end -->
+                </div>
+              </div>
+          </div>
+        </div>
 
         <div class="col-lg-6 mt-4 mt-lg-0">
           <h3 class="into-sub-title">Our Core Principles</h3>
@@ -462,14 +657,14 @@ construction, empowering local talent or communities
                 </div>
               </div>
           </div>
-          <!--/ Accordion end -->
 
-        </div><!-- Col end -->
-    </div><!-- Row end -->
-  </div><!-- Container end -->
-</section><!-- Feature are end -->
 
-<section id="facts" class="facts-area dark-bg">
+        </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section id="facts" class="facts-area dark-bg">
   <div class="container">
     <div class="facts-wrapper">
         <div class="row">
@@ -481,8 +676,7 @@ construction, empowering local talent or communities
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="1789">0</span></h2>
                 <h3 class="ts-facts-title">Total Projects</h3>
               </div>
-          </div><!-- Col end -->
-
+          </div>
           <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
               <div class="ts-facts-img">
                 <img loading="lazy" src="images/icon-image/fact2.png" alt="facts-img">
@@ -491,7 +685,7 @@ construction, empowering local talent or communities
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="647">0</span></h2>
                 <h3 class="ts-facts-title">Staff Members</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
           <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
               <div class="ts-facts-img">
@@ -501,7 +695,7 @@ construction, empowering local talent or communities
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="4000">0</span></h2>
                 <h3 class="ts-facts-title">Hours of Work</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
           <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
               <div class="ts-facts-img">
@@ -511,21 +705,19 @@ construction, empowering local talent or communities
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="44">0</span></h2>
                 <h3 class="ts-facts-title">Countries Experience</h3>
               </div>
-          </div><!-- Col end -->
+          </div>
 
-        </div> <!-- Facts end -->
+        </div>
     </div>
-    <!--/ Content row end -->
+
   </div>
-  <!--/ Container end -->
-</section><!-- Facts end -->
+
+</section> -->
 
 <style>
   #ts-service-area {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://www.buildaustralia.com.au/wp-content/uploads/2020/05/shutterstock_7721006231.jpg.webp') no-repeat center center;
-  background-size: cover;
+background: linear-gradient(rgb(0 0 0 / 69%), rgb(0 0 0)), url(https://www.buildaustralia.com.au/wp-content/uploads/2020/05/shutterstock_7721006231.jpg.webp) no-repeat center center;
+    background-size: cover;
   color: #fff; /* optional: makes text more readable */
   padding: 60px 0;
 }
@@ -654,8 +846,8 @@ construction, empowering local talent or communities
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;commercial&quot;,&quot;healthcare&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img">
+              <a class="gallery-popup" href="img/img-12.webp" aria-label="project-img">
+                <img class="img-fluid" src="img/img-12.webp" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -672,8 +864,8 @@ construction, empowering local talent or communities
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;healthcare&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project2.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project2.jpg" alt="project-img">
+              <a class="gallery-popup" href="img/img-13.jpg" aria-label="project-img">
+                <img class="img-fluid" src="img/img-13.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -690,8 +882,8 @@ construction, empowering local talent or communities
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project3.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project3.jpg" alt="project-img">
+              <a class="gallery-popup" href="img/img-14.jpg" aria-label="project-img">
+                <img class="img-fluid" src="img/img-14.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -708,8 +900,8 @@ construction, empowering local talent or communities
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;infrastructure&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project4.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project4.jpg" alt="project-img">
+              <a class="gallery-popup" href="img/img-15.jpg" aria-label="project-img">
+                <img class="img-fluid" src="img/img-15.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -726,8 +918,8 @@ construction, empowering local talent or communities
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;residential&quot;,&quot;education&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project5.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project5.jpg" alt="project-img">
+              <a class="gallery-popup" href="img/img-16.webp" aria-label="project-img">
+                <img class="img-fluid" src="img/img-166.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -744,8 +936,8 @@ construction, empowering local talent or communities
 
           <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
             <div class="project-img-container">
-              <a class="gallery-popup" href="images/projects/project6.jpg" aria-label="project-img">
-                <img class="img-fluid" src="images/projects/project6.jpg" alt="project-img">
+              <a class="gallery-popup" href="img/img-17.jpg" aria-label="project-img">
+                <img class="img-fluid" src="img/img-17.jpg" alt="project-img">
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
@@ -773,10 +965,10 @@ construction, empowering local talent or communities
   <!--/ Container end -->
 </section><!-- Project area end -->
 
-<section class="content">
+<!-- <section class="content">
   <div class="container">
     <div class="row">
-        <!-- <div class="col-lg-6">
+     <div class="col-lg-6">
           <h3 class="column-title">Testimonials</h3>
 
           <div id="testimonial-slide" class="testimonial-slide">
@@ -841,61 +1033,66 @@ construction, empowering local talent or communities
 
           </div>
        
-        </div> -->
+        </div>
 
-        <!-- <div class="col-lg-6 mt-5 mt-lg-0"> -->
+      <div class="col-lg-6 mt-5 mt-lg-0">
           <div>
             <h3 class="section-sub-title" style="text-align: center;">Happy Clients</h3>
-          <!-- <h3 class="column-title" style="text-align: center;">Happy Clients</h3> -->
+         
 
           <div class="row all-clients">
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client1.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 1 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client2.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 2 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client3.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 3 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client4.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 4 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client5.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 5 end -->
+              </div>
 
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                     <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client6.png" alt="clients-logo" /></a>
                 </figure>
-              </div><!-- Client 6 end -->
+              </div>
 
-          </div><!-- Clients row end -->
+          </div>
 
-        </div><!-- Col end -->
+        </div>
 
     </div>
-    <!--/ Content row end -->
+  
   </div>
-  <!--/ Container end -->
-</section><!-- Content end -->
+  
+</section> -->
 
-<section class="subscribe no-padding">
+
+
+
+
+
+<!-- <section class="subscribe no-padding">
   <div class="container">
     <div class="row">
       
@@ -904,8 +1101,7 @@ construction, empowering local talent or communities
             <h3>Need Assistance?</h3>
             <h4><a href="tel:+917028732020" class="text-white">+91 70287 32020</a></h4>
         </div>
-      </div><!-- Col end -->
-
+      </div>
       <div class="col-lg-8">
         <div class="ts-newsletter row align-items-center">
           
@@ -926,12 +1122,12 @@ construction, empowering local talent or communities
             </form>
           </div>
 
-        </div><!-- Newsletter end -->
-      </div><!-- Col end -->
+        </div>
+      </div>
 
-    </div><!-- Content row end -->
+    </div>
   </div>
-</section>
+</section> -->
 
 <!--/ subscribe end -->
 
@@ -950,7 +1146,7 @@ construction, empowering local talent or communities
           <div class="latest-post">
               <div class="latest-post-media">
                 <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="images/news/news1.jpg" alt="img">
+                    <img loading="lazy" class="img-fluid" src="img/img-9.avif" alt="img">
                 </a>
               </div>
               <div class="post-body">
@@ -970,7 +1166,7 @@ construction, empowering local talent or communities
           <div class="latest-post">
               <div class="latest-post-media">
                 <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="images/news/news2.jpg" alt="img">
+                    <img loading="lazy" class="img-fluid" src="img/img-10.webp" alt="img">
                 </a>
               </div>
               <div class="post-body">
@@ -990,7 +1186,7 @@ construction, empowering local talent or communities
           <div class="latest-post">
               <div class="latest-post-media">
                 <a href="#" class="latest-post-img">
-                    <img loading="lazy" class="img-fluid" src="images/news/news3.jpg" alt="img">
+                    <img loading="lazy" class="img-fluid" src="img/img-11.jpg" alt="img">
                 </a>
               </div>
               <div class="post-body">
@@ -1016,6 +1212,106 @@ construction, empowering local talent or communities
   <!--/ Container end -->
 </section>
 <!--/ News end -->
+
+
+<div class="clients-section">
+  <h3 class="section-sub-title" style="text-align: center;">Happy Clients</h3>
+
+  <div class="clients-slider" id="clientsSlider">
+    <div class="slide-track">
+      <img src="images/clients/client1.png" class="client-logo" />
+      <img src="images/clients/client2.png" class="client-logo" />
+      <img src="images/clients/client3.png" class="client-logo" />
+      <img src="images/clients/client4.png" class="client-logo" />
+      <img src="images/clients/client5.png" class="client-logo" />
+      <img src="images/clients/client6.png" class="client-logo" />
+
+      <!-- Duplicate logos for infinite effect -->
+      <img src="images/clients/client1.png" class="client-logo" />
+      <img src="images/clients/client2.png" class="client-logo" />
+      <img src="images/clients/client3.png" class="client-logo" />
+      <img src="images/clients/client4.png" class="client-logo" />
+      <img src="images/clients/client5.png" class="client-logo" />
+      <img src="images/clients/client6.png" class="client-logo" />
+    </div>
+  </div>
+</div>
+
+
+<style>
+
+  .clients-section {
+    margin-bottom: 60px;
+  }
+
+  .clients-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  cursor: grab;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(150px * 12); /* adjust width */
+  animation: scroll 18s linear infinite;
+}
+
+.client-logo {
+  width: 150px;
+  margin: 0 20px;
+  transition: transform .3s ease;
+}
+
+.client-logo:hover {
+  transform: scale(1.2);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Pause animation on hover */
+.clients-slider:hover .slide-track {
+  animation-play-state: paused;
+}
+
+</style>
+
+<script>
+const slider = document.getElementById("clientsSlider");
+let isDown = false;
+let startX;
+let scrollLeft;
+
+slider.addEventListener("mousedown", (e) => {
+  isDown = true;
+  slider.style.cursor = "grabbing";
+  startX = e.pageX - slider.offsetLeft;
+  scrollLeft = slider.scrollLeft;
+});
+
+slider.addEventListener("mouseleave", () => {
+  isDown = false;
+  slider.style.cursor = "grab";
+});
+
+slider.addEventListener("mouseup", () => {
+  isDown = false;
+  slider.style.cursor = "grab";
+});
+
+slider.addEventListener("mousemove", (e) => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - slider.offsetLeft;
+  const walk = (x - startX) * 2; 
+  slider.scrollLeft = scrollLeft - walk;
+});
+</script>
+
+
 
 <style>
   .footer-main {
